@@ -20,10 +20,8 @@ class ServiceA {
   }
 }
 
-@Injectable()
 class ServiceB {
-  @Inject(ServiceA)
-  private serviceA!: ServiceA;
+  @Inject(ServiceA) private serviceA!: ServiceA;
 
   doSomethingElse() {
     this.serviceA.doSomething();
