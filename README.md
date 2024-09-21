@@ -1,4 +1,6 @@
-# My DI Package
+# Ap Simple DI
+
+[![npm version](https://badge.fury.io/js/ap-simple-di.svg)](https://badge.fury.io/js/ap-simple-di)
 
 A simple dependency injection system for TypeScript and Bun.
 
