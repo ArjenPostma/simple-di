@@ -1,5 +1,5 @@
 {
-  "name": "@ap/simple-di",
+  "name": "ap-simple-di",
   "version": "1.0.0",
   "description": "A simple dependency injection system for TypeScript",
   "main": "dist/index.js",

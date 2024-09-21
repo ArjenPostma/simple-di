@@ -5,13 +5,13 @@ A simple dependency injection system for TypeScript and Bun.
 ## Installation
 
 ```bash
-bun install @ap/simple-di
+bun install ap-simple-di
 ```
 
 ## Usage
 
 ```typescript
-import { Injectable, Inject } from '@ap/simple-di';
+import { Injectable, Inject } from 'ap-simple-di';
 
 @Injectable()
 class ServiceA {
