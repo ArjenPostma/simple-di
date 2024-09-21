@@ -1,6 +1,6 @@
 {
   "name": "ap-simple-di",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple dependency injection system for TypeScript",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -12,7 +12,17 @@
     "build": "bun build ./src/index.ts --outdir ./dist --target node",
     "prepublishOnly": "bun run build"
   },
-  "keywords": ["dependency injection", "typescript", "bun", "npm", "node", "javascript", "di", "injection", "simple"],
+  "keywords": [
+    "dependency injection",
+    "typescript",
+    "bun",
+    "npm",
+    "node",
+    "javascript",
+    "di",
+    "injection",
+    "simple"
+  ],
   "author": "Arjen postma",
   "license": "MIT",
   "devDependencies": {
