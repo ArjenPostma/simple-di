@@ -9,7 +9,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "bun build ./src/index.ts --outdir ./dist --target node",
+    "build": "tsc",
     "prepublishOnly": "bun run build"
   },
   "keywords": [
