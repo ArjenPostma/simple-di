@@ -15,3 +15,6 @@ export function Injectable(): ClassDecorator {
         container.register(new target());
     };
 }
+
+export type InjectDecorator = typeof Inject;
+export type InjectableDecorator = typeof Injectable;

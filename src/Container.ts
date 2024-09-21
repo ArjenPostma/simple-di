@@ -1,4 +1,4 @@
-class Container {
+export class Container {
     private dependencies: Map<string, any> = new Map();
 
     register<T>(value: T): void {
